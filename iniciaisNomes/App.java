@@ -48,9 +48,9 @@ public class App {
     
     }
 
-    public String contarIniciais(){
-        String iniciais = "";
-
+    public String contarIniciais(String nome){
+        String iniciais;
+        iniciais = passador(nome,0,"");
 
 
         return iniciais;
@@ -59,14 +59,14 @@ public class App {
     public static void main(String[] args) {
 
         // Exemplo André Filipe de Oliveira, FIgueiredo return afof
-        String iniciais[] = new String[10];
         App app = new App();
         Scanner scanner = new Scanner(System.in);
-
         String nome = "André Filipe de Oliveira Figueiredo";
 
+        
+
         //app.passador(nome,0,nome);
-        System.out.println(app.passador(nome, 0,""));
+        System.out.println(app.contarIniciais(nome));
         
     }
     
