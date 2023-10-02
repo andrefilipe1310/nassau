@@ -49,6 +49,7 @@ public class App {
     }
 
     public String contarIniciais(String nome){
+        // A função contarIniciais serve para simplificar a chamada da função recursiva (passador() ) já que ela tem alguns parametros que não mudam e que são necessarios
         String iniciais;
         iniciais = passador(nome,0,"");
 
