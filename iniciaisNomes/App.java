@@ -58,15 +58,19 @@ public class App {
 
     public static void main(String[] args) {
 
-        // Exemplo André Filipe de Oliveira, FIgueiredo return afof
+        // criando um objeto da classe para usar as funções
         App app = new App();
+
+        // Pegando o nome completo da pessoa
         Scanner scanner = new Scanner(System.in);
-        String nome = "André Filipe de Oliveira Figueiredo";
+        String nome;
+        System.out.println("Digite seu nome completo e vamos dizer quais são as iniciais de cada nome: ");
+        nome = scanner.nextLine();
 
         
 
-        //app.passador(nome,0,nome);
-        System.out.println(app.contarIniciais(nome));
+        //Exibir mensagem com nome da pessoa e iniciais que são contadas através da função contarIniciais
+        System.out.printf("A iniciais do Nome %s são: %s",nome,app.contarIniciais(nome));
         
     }
     
