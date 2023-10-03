@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class iniciaisNomes {
 
 
     public String  passador(String frase,int contador, String iniciais){
@@ -60,7 +60,7 @@ public class App {
     public static void main(String[] args) {
 
         // criando um objeto da classe para usar as funções
-        App app = new App();
+        iniciaisNomes app = new iniciaisNomes();
 
         // Pegando o nome completo da pessoa
         Scanner scanner = new Scanner(System.in);
