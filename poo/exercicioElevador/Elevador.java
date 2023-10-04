@@ -63,6 +63,7 @@ public class Elevador {
     //------------------------ verificar status do objeto---------------------------
 
     public void status(){
+        System.out.println("--------------------------------------------------------------------");
         System.out.printf("Esse predio tem %d andares (Sem contar o terreo)\n",totalAndares);
         System.out.printf("O elevador suporta até %d pessoa(s)\n",capacidadeElevador);
         System.out.printf("Atualmente tem %d pessoa(s) no elevador\n",pessoasPresentes);
@@ -71,7 +72,7 @@ public class Elevador {
         }else{
             System.out.println("Atualmente estamos no Terreo");
         }
-        
+      System.out.println("--------------------------------------------------------------------");  
     }
 
     //--------------------área get e set ------------------------
